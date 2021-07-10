@@ -43,9 +43,6 @@ public static void main(String[] args) throws Exception {
 System.out.println(smpath);
 System.out.println(smallpathwth);
      
-
-        
-    
 }
 public static void  smallpath (ArrayList<Edge>[] graph,int src,int des,boolean []visited,String ps,int spwth) {
     if(src==des){
