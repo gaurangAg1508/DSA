@@ -86,6 +86,7 @@ public class sudoku {
 
         }
         else{
+            
             System.out.println("no valid solution");
         }
     }
