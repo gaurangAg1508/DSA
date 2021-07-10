@@ -30,7 +30,7 @@ public class maxmin {
         // System.out.println("MIN OF ARRAY=="+min);
 
        if(arr.length%2==0){
-           if(arr[0]>arr[1]){
+           if(arr[0]>arr[1]){        // 1+ 3*(n-2)/2
             max=arr[0];
             min=arr[1];
            }
@@ -41,7 +41,7 @@ public class maxmin {
             j=2;
        } 
         else{
-            max=arr[0];
+            max=arr[0];               //3*(n-1)/2
             min=arr[0];
              j=1;
        }
